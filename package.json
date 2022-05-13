@@ -1,17 +1,17 @@
 {
-  "name": "barclays-project",
-  "scripts": {
-    "start": "lerna run --parallel start",
-    "build": "learn run build"
-  },
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  },
+  "name": "module-federation",
   "private": true,
   "workspaces": {
     "packages": [
-      "packages/app1",
-      "packages/app2"
+      "app1",
+      "app2"
     ]
+  },
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
   }
 }
