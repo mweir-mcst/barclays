@@ -42,60 +42,60 @@ const App = () => {
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="1" onClick={() => display("1")} />
+                    <input type="button" value="1" onClick={() => display("1")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="2" onClick={() => display("2")} />
+                    <input type="button" value="2" onClick={() => display("2")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="3" onClick={() => display("3")} />
+                    <input type="button" value="3" onClick={() => display("3")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="/" onClick={() => display("/")} />
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <input type="button" value="4" onClick={() => display("4")} />
-                </td>
-                <td>
-                    <input type="button" value="5" onClick={() => display("5")} />
-                </td>
-                <td>
-                    <input type="button" value="6" onClick={() => display("6")} />
-                </td>
-                <td>
-                    <input type="button" value="-" onClick={() => display("-")} />
+                    <input type="button" value="/" onClick={() => display("/")} style={inputButtonStyle}  />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="7" onClick={() => display("7")} />
+                    <input type="button" value="4" onClick={() => display("4")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="8" onClick={() => display("8")} />
+                    <input type="button" value="5" onClick={() => display("5")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="9" onClick={() => display("9")} />
+                    <input type="button" value="6" onClick={() => display("6")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="+" onClick={() => display("+")} />
+                    <input type="button" value="-" onClick={() => display("-")} style={inputButtonStyle}  />
                 </td>
             </tr>
             <tr>
                 <td>
-                    <input type="button" value="." onClick={() => display(".")} />
+                    <input type="button" value="7" onClick={() => display("7")} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="0" onClick={() => display("0")} />
+                    <input type="button" value="8" onClick={() => display("8")} style={inputButtonStyle}  />
+                </td>
+                <td>
+                    <input type="button" value="9" onClick={() => display("9")} style={inputButtonStyle}  />
+                </td>
+                <td>
+                    <input type="button" value="+" onClick={() => display("+")} style={inputButtonStyle}  />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" value="." onClick={() => display(".")} style={inputButtonStyle}  />
+                </td>
+                <td>
+                    <input type="button" value="0" onClick={() => display("0")} style={inputButtonStyle}  />
                 </td>
                 <td>
                     <input type="button" value="=" onClick={function() {
                         document.getElementById("result").value = eval(document.getElementById("result").value);
-                    }} />
+                    }} style={inputButtonStyle}  />
                 </td>
                 <td>
-                    <input type="button" value="*" onClick={() => display("*")} />
+                    <input type="button" value="*" onClick={() => display("*")} style={inputButtonStyle}  />
                 </td>
             </tr>
         </table>
